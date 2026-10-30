@@ -1,0 +1,15 @@
+..F
+======================================================================
+FAIL: test_search_not_found (test_json_search.json_search_test)
+key should not be found, should return an empty list
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/devasc/labs/devnet-src/unittest/test_json_search.py", line 14, in test_search_not_found
+    self.assertTrue([]==json_search(key2,data))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)
+[{'issueSummary': 'Network Device 10.10.20.82 Is Unreachable From Controller'}]

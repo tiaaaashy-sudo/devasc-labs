@@ -1,0 +1,6 @@
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+[{'issueSummary': 'Network Device 10.10.20.82 Is Unreachable From Controller'}]

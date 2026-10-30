@@ -1,0 +1,15 @@
+.F.
+======================================================================
+FAIL: test_search_found (__main__.json_search_test)
+key should be found, return list should not be empty
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_json_search.py", line 10, in test_search_found
+    self.assertTrue([]!=json_search(key1,data))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)
+[]
